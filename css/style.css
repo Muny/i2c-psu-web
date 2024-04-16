@@ -362,6 +362,7 @@ serial-device {
     padding-left: 65px;
     margin-left: -25px;
     writing-mode: vertical-rl;
+    direction: rtl;
 }
 
 .vert-slider.right {
@@ -369,6 +370,7 @@ serial-device {
     padding-right: 65px;
     margin-right: -25px;
     writing-mode: vertical-lr;
+    direction: rtl;
 }
 
 .vert-slider::-webkit-slider-runnable-track {
