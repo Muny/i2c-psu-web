@@ -22,6 +22,7 @@ body {
     margin: 20px;
     background-color: black;
     color: var(--yellow);
+    text-shadow: var(--yellow-transparent) 0px 0px 15px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: min-content 1fr;
@@ -88,6 +89,7 @@ serial-device {
     display: grid;
     grid-template-rows: min-content min-content min-content 1fr;
     border: 1px solid var(--yellow);
+    box-shadow: 0px 0px 25px #ffce471c;
     grid-gap: 10px;
     margin-right: 10px;
     position: relative;
@@ -273,6 +275,7 @@ serial-device {
     font-family: 'Logisoso';
     text-align: center;
     opacity: 0;
+    box-shadow: 0px 0px 28px var(--yellow-transparent);
 }
 
 .out-unit {
@@ -401,6 +404,7 @@ serial-device {
 .range-value {
     position: absolute;
     background: var(--yellow);
+    box-shadow: 0px 0px 74px var(--yellow-transparent);
     width: 60px;
     height: 25px;
     pointer-events: none;
@@ -484,6 +488,7 @@ serial-device {
 
     .state.active {
         background-color: var(--yellow);
+        box-shadow: 0px 0px 9px var(--yellow-transparent);
         color: black;
         border-right: 1px solid black;
     }
