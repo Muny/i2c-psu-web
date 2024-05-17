@@ -31,6 +31,18 @@ body {
     font-feature-settings: "case", "ss02", "ss03", "ss04", "tnum", "calt" 0;
 }
 
+.gh-link {
+    color: var(--yellow);
+    text-underline-position: under;
+    text-decoration: var(--yellow) wavy underline;
+    display: inline-flex;
+    font-size:12px;
+}
+
+.gh-link img {
+    margin-left: 4px;
+}
+
 .logo {
     height: 50px;
 }
